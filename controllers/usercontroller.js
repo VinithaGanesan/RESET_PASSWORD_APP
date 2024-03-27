@@ -128,7 +128,7 @@ const forgotPassword = async (req, res) => {
                 from: process.env.SMTP_USER,
                 to: email,
                 subject: 'Reset Password',
-                text: `http://localhost:3000/resetPassword/${token}`,
+                text: `https://reset-password-app-1.onrender.com/${token}`,
             };
 
             tranporter.sendMail(mailOptions, (error, info) => {

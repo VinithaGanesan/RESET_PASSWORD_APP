@@ -18,7 +18,7 @@ require('dotenv').config();
 connectToDatabase();
 
 // enabling cors
-var whitelist = ['http://localhost:3000', 'http://localhost:5000', "0.0.0.0/0"]
+var whitelist = ['http://localhost:3000', 'http://localhost:5000', "0.0.0.0/0", "https://reset-password-app-1.onrender.com"]
 var corsOptions = {
   origin: function (origin, callback) {
     if (whitelist.indexOf(origin) !== -1) {

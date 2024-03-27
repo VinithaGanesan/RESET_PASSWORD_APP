@@ -1,13 +1,13 @@
 postman documentation - https://documenter.getpostman.com/view/31850794/2sA35D6io2
 
-signup user-http://localhost:5000/auth/signup
+signup user-https://reset-password-app-1.onrender.com/auth/signup
 
-login users- http://localhost:5000/auth/login
+login users- https://reset-password-app-1.onrender.com/auth/login
 
-forgot-password-http://localhost:5000/auth/forgotpassword
+forgot-password-https://reset-password-app-1.onrender.com/auth/forgotpassword
 
-reset-password- http://localhost:5000/auth/resetpassword/:token
+reset-password- https://reset-password-app-1.onrender.com/auth/resetpassword/:token
 
-verify-user-http://localhost:5000/auth/verify
+verify-user-https://reset-password-app-1.onrender.com/auth/verify
 
-logout user-http://localhost:5000/auth/logout
+logout user-https://reset-password-app-1.onrender.com/auth/logout
