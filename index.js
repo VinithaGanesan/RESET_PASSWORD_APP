@@ -18,7 +18,7 @@ require('dotenv').config();
 connectToDatabase();
 
 // enabling cors
-var whitelist = ['http://localhost:3000', 'http://localhost:5000']
+var whitelist = ['http://localhost:3000', 'http://localhost:5000', "0.0.0.0/0"]
 var corsOptions = {
   origin: function (origin, callback) {
     if (whitelist.indexOf(origin) !== -1) {
